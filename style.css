@@ -1,65 +1,63 @@
+/*RESET*/
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background-color: #dbd7d7;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .profile-pic {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 20px;
-    float: left;
-    margin-left: 20px;
-    display: flex; /* coloca as imagens uma ao lado da outra */
-    justify-content: center; /* alinha as imagens no centro da tela */
-  }
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 
-  h4 {
-    margin-left: 10px;
-  }
-  
-  .profile-pic img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .profile-info h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .profile-info h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .profile-info ul {
-    list-style: none;
-    margin-bottom: 20px;
-  }
-  
-  .profile-info li {
-    margin-bottom: 5px;
-    
-  }
-  
-  .profile-info p {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
+body {
+  background: #eee;
+  font-family: Arial;
+}
+
+.tab {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.tab input[type] {
+  display: none;
+}
+/*envolve todo o nosso conteúdo*/
+.tab label {
+  display: block;
+  float: left;
+  padding: 12px 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.tab label:hover,
+.tab input:checked + label {
+  background: #5b9780;
+  color: #fff;
+}
+
+.tabs {
+  clear: both;
+  perspective: 400px;
+  -webkit-perspective: 400px;
+}
+
+.tabs .content {
+  background: #fff;
+  width: 700px;
+  position: absolute;
+  border: 2px solid #5b9780;
+  padding: 10px 30px 40px;
+  line-height: 1.4em;
+  opacity: 0;
+  transform: rotateX(-20deg);
+  transform-origin: top center;
+  transition: opacity .3s, transform 1s;
+  z-index: 0;
+}
+
+#tab1:checked ~ .tabs .content:nth-of-type(1),
+#tab2:checked ~ .tabs .content:nth-of-type(2),
+#tab3:checked ~ .tabs .content:nth-of-type(3),
+#tab4:checked ~ .tabs .content:nth-of-type(4) {
+  transform: rotateX(0);
+  opacity: 1;
+  z-index: 1;
+}
