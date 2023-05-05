@@ -17,6 +17,7 @@ body {
 .tab input[type] {
   display: none;
 }
+
 /*envolve todo o nosso conteúdo*/
 .tab label {
   display: block;
