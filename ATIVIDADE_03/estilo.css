@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: rgb(237, 250, 220);
+}
+
+#topo {
+    font-size: 25px;
+
+}
+
+.principal {
+    color: rgb(141, 18, 2);
+    font-size: 16px;
+    
+}
+
+#secundaria {
+    color: rgb(55, 128, 255);
+    font-size: 15px;
+
+}
+
+#titulo {
+    font-size: 26px;
+}
+
+ol li {
+    text-align: left;
+}

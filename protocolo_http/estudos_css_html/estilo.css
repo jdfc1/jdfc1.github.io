@@ -1,0 +1,16 @@
+
+
+.principal {
+    color: rgb(255, 255, 255);
+    background-color: rgb(167, 167, 241);
+    text-align: center;
+    font-size: 30px;
+}
+
+#secundaria {
+    color: white;
+    background-color: brown;
+    text-align: center;
+    font-size: 22px;
+
+}

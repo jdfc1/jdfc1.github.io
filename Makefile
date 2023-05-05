@@ -1,8 +1,9 @@
 TAG=$(shell date +%Y.%m.%d)
 
 add:
-        git add .
+	git add .
 commit: add
-        git commit -m " -> Enviado no dia $(TAG) para o repositório online."
+	git commit -m " -> Enviado no dia $(TAG) para o repositório online."
 push:   commit
-        git push
+	git push
+
