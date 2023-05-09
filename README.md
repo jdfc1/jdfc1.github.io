@@ -23,4 +23,4 @@ se o nome for master
 
 $ git push origin master --tags
 
-[Atividade 03](./ATIVIDADE_03)
+[Atividade 03](https://jdfc1.github.io/ATIVIDADE_03/)
