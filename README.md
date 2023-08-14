@@ -7,6 +7,7 @@ se tem alguma tag, para ver:
 $ git tag
 
 
+
 adicionando uma nova tag no github
 
 $ git tag -a 1.0.0 -m "versão padrão sem acessibilidade"
