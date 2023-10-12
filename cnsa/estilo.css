@@ -10,16 +10,16 @@
 }
 /* Estilos para o conteúdo no topo da imagem de fundo */
 .content {
-    background-color: #e9dada; /* Fundo branco para o conteúdo */
-    padding: 5px;
+    background-color: #cfd6d5; /* Fundo branco para o conteúdo */
+    padding: 10px;
     border-radius: 10px; /* Cantos arredondados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
     text-align: center;
-    opacity: 80%;
+    opacity: 70%;
     width: 85%;
     justify-content: center;
     align-items: center;
     margin: 0 auto 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
