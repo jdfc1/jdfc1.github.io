@@ -1,0 +1,25 @@
+.centered-div {
+    margin: 0;
+    padding: 0;
+    background-image: url('./cnsa.jpg'); /* Substitua 'sua-imagem-de-fundo.jpg' pelo URL da sua imagem de fundo */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Altura 100% da viewport */
+}
+/* Estilos para o conteúdo no topo da imagem de fundo */
+.content {
+    background-color: #e9dada; /* Fundo branco para o conteúdo */
+    padding: 5px;
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    text-align: center;
+    opacity: 80%;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
