@@ -6,7 +6,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh; /* Altura 100% da viewport */
+    height: '100%'; /* Altura 100% da viewport */
 }
 /* Estilos para o conteúdo no topo da imagem de fundo */
 .content {
