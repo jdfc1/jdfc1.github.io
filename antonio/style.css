@@ -1,0 +1,51 @@
+header {
+	background: #024b61;
+	position: relative;
+
+}
+
+header h1 {
+	border: 5px solid white;
+	padding: 10px 50px;
+	margin: 50px;
+}
+
+.waves {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.waves1 {
+	animation: moveWave1 3s ease-in-out infinite alternate;
+
+}
+
+@keyframes moveWave1 {
+	from{
+		transform: translateX(-2000px);
+	}
+}
+
+.waves2 {
+	animation: moveWave2 3s 1.2s ease-in-out infinite alternate;
+
+}
+
+@keyframes moveWave2 {
+	from{
+		transform: translateX(-2000px);
+	}
+}
+
+.waves3 {
+	animation: moveWave3 3s ease-in-out infinite alternate;
+
+}
+
+@keyframes moveWave3 {
+	from{
+		transform: translateX(-2000px);
+	}
+}
